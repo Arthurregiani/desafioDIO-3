@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Herói</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Escolha seu Herói</h1>
+        <form id="heroForm">
+            <input type="text" id="heroName" placeholder="Nome do Herói" required>
+            <input type="number" id="heroAge" placeholder="Idade do Herói" required>
+            <select id="heroType" required>
+                <option value="">Selecione o Tipo</option>
+                <option value="guerreiro">Guerreiro</option>
+                <option value="mago">Mago</option>
+                <option value="monge">Monge</option>
+                <option value="ninja">Ninja</option>
+            </select>
+            <button type="submit">Criar Herói</button>
+        </form>
+        <div id="heroInfo" class="hero-info"></div>
+        <button id="attackButton" style="display:none;">Atacar!</button>
+        <div id="attackHistory" class="attack-history"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
