@@ -1,38 +1,21 @@
-# Calculadora de Rank
+# Jogo do Herói
 
 ## Descrição
 
-A **Calculadora de Rank** é uma aplicação simples desenvolvida em JavaScript, HTML e CSS que permite calcular o saldo de vitórias e derrotas de um jogador em partidas ranqueadas. Com base na quantidade de vitórias, a aplicação determina o nível do jogador, que varia de Ferro a Imortal.
+O Jogo do Herói é uma aplicação web interativa que permite aos usuários criar um herói de aventura e simular ataques com base em diferentes tipos de personagens. Os tipos de heróis incluem Guerreiro, Mago, Monge e Ninja, cada um com um ataque único.
 
 ## Funcionalidades
 
-- Entrada de valores para o número de vitórias e derrotas.
-- Cálculo automático do saldo de vitórias.
-- Classificação do jogador em níveis: Ferro, Bronze, Prata, Ouro, Diamante, Lendário e Imortal.
-- Validação de entrada para garantir que os dados inseridos sejam válidos.
-- Interface amigável e responsiva.
-
-## Como Usar
-
-1. Clone este repositório ou faça o download dos arquivos.
-2. Abra o arquivo `index.html` em seu navegador.
-3. Insira o número de vitórias e derrotas nos campos correspondentes.
-4. Clique no botão "Calcular Nível" para ver o resultado.
+- **Criação de Heróis**: Os usuários podem inserir o nome, idade e tipo do herói.
+- **Ataques Interativos**: Após criar um herói, os usuários podem clicar em um botão para realizar ataques, com mensagens exibindo o tipo de ataque.
+- **Histórico de Ataques**: Os ataques realizados são registrados em uma lista, permitindo que os usuários vejam o que seu herói fez.
 
 ## Tecnologias Utilizadas
 
-- **HTML**: Para estruturar a página.
-- **CSS**: Para estilizar a aplicação.
-- **JavaScript**: Para implementar a lógica de cálculo e interatividade.
+- **HTML**: Para estruturar a interface do usuário.
+- **CSS**: Para estilizar a aplicação e torná-la visualmente atraente.
+- **JavaScript**: Para implementar a lógica do jogo e a interatividade.
 
-## Exemplo de Uso
-
-Ao inserir os seguintes dados:
-- Vitórias: 45
-- Derrotas: 30
-
-A aplicação retornará: 
-O Herói tem de saldo de 15 está no nível de Prata
 
 ## 🚀 Como Executar o Projeto
 
@@ -40,7 +23,7 @@ Para executar o projeto em sua máquina local, siga as etapas abaixo:
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/Arthurregiani/desafioDio-2.git
+   git clone https://github.com/Arthurregiani/desafioDIO-3.git
 2. **Navegue até o diretório do projeto**:
     ```bash 
     cd nome-do-repositorio
